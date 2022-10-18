@@ -6,4 +6,11 @@ class Person {
         this.name = thName;
         this.cell = theCell
     }
+
+    public String getName() {
+        return this.name;
+    }
+    public void setName(String theName) {
+        this.name = theName;
+    }
 }
